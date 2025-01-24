@@ -1,0 +1,46 @@
+.skills-section {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.skill-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    background-color: #4caf50;
+    height: 10px;
+    width: 0;
+    border-radius: 10px;
+}
+
+.skill-percentage {
+    transition: width 1.5s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .skill-bar {
+        height: 8px;
+    }
+}
